@@ -89,3 +89,16 @@ npm g module users
 npm g controller users
 
 npm g service users
+
+create docker files:
+touch Dockerfile .dockerignore docker-compose.yml
+
+docker compose up -d up
+
+docker compose build
+
+docker compose up
+
+if you come accross errors:
+docker compose down
+docker compose up -d
